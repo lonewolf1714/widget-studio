@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Lets Samsung Galaxy Z Flip show these widgets on the cover screen (Flex Window) as well as Home. -->
+<samsung-appwidget-provider display="main_screen|sub_screen" privacyWidget="false" />

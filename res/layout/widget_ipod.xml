@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/root" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/img" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter" />
+    <FrameLayout android:id="@+id/o0" android:layout_width="0dp" android:layout_height="0dp" />
+    <FrameLayout android:id="@+id/o1" android:layout_width="0dp" android:layout_height="0dp" />
+    <FrameLayout android:id="@+id/o2" android:layout_width="0dp" android:layout_height="0dp" />
+    <FrameLayout android:id="@+id/o3" android:layout_width="0dp" android:layout_height="0dp" />
+    <FrameLayout android:id="@+id/o4" android:layout_width="0dp" android:layout_height="0dp" />
+    <FrameLayout android:id="@+id/o5" android:layout_width="0dp" android:layout_height="0dp" />
+    <FrameLayout android:id="@+id/o6" android:layout_width="0dp" android:layout_height="0dp" />
+    <FrameLayout android:id="@+id/o7" android:layout_width="0dp" android:layout_height="0dp" />
+    <FrameLayout android:id="@+id/o8" android:layout_width="0dp" android:layout_height="0dp" />
+    <FrameLayout android:id="@+id/o9" android:layout_width="0dp" android:layout_height="0dp" />
+    <FrameLayout android:id="@+id/o10" android:layout_width="0dp" android:layout_height="0dp" />
+    <FrameLayout android:id="@+id/o11" android:layout_width="0dp" android:layout_height="0dp" />
+    <FrameLayout android:id="@+id/o12" android:layout_width="0dp" android:layout_height="0dp" />
+    <FrameLayout android:id="@+id/o13" android:layout_width="0dp" android:layout_height="0dp" />
+    <FrameLayout android:id="@+id/o14" android:layout_width="0dp" android:layout_height="0dp" />
+    <FrameLayout android:id="@+id/o15" android:layout_width="0dp" android:layout_height="0dp" />
+    <FrameLayout android:id="@+id/o16" android:layout_width="0dp" android:layout_height="0dp" />
+    <FrameLayout android:id="@+id/o17" android:layout_width="0dp" android:layout_height="0dp" />
+    <FrameLayout android:id="@+id/o18" android:layout_width="0dp" android:layout_height="0dp" />
+    <FrameLayout android:id="@+id/o19" android:layout_width="0dp" android:layout_height="0dp" />
+    <FrameLayout android:id="@+id/o20" android:layout_width="0dp" android:layout_height="0dp" />
+    <FrameLayout android:id="@+id/o21" android:layout_width="0dp" android:layout_height="0dp" />
+    <FrameLayout android:id="@+id/o22" android:layout_width="0dp" android:layout_height="0dp" />
+    <FrameLayout android:id="@+id/o23" android:layout_width="0dp" android:layout_height="0dp" />
+    <FrameLayout android:id="@+id/o24" android:layout_width="0dp" android:layout_height="0dp" />
+    <FrameLayout android:id="@+id/o25" android:layout_width="0dp" android:layout_height="0dp" />
+    <FrameLayout android:id="@+id/o26" android:layout_width="0dp" android:layout_height="0dp" />
+    <FrameLayout android:id="@+id/o27" android:layout_width="0dp" android:layout_height="0dp" />
+    <FrameLayout android:id="@+id/o28" android:layout_width="0dp" android:layout_height="0dp" />
+    <FrameLayout android:id="@+id/o29" android:layout_width="0dp" android:layout_height="0dp" />
+    <FrameLayout android:id="@+id/o30" android:layout_width="0dp" android:layout_height="0dp" />
+    <FrameLayout android:id="@+id/o31" android:layout_width="0dp" android:layout_height="0dp" />
+    <Chronometer android:id="@+id/chrono_m" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="monospace" android:textColor="#FFFFFFFF" android:textSize="12sp" android:includeFontPadding="false" android:visibility="gone" />
+    <TextClock android:id="@+id/clock_m" android:layout_width="wrap_content" android:layout_height="wrap_content" android:format12Hour="h:mm" android:format24Hour="HH:mm" android:textColor="#FFFFFFFF" android:textSize="12sp" android:includeFontPadding="false" android:fontFamily="sans-serif-medium" android:visibility="gone" />
+</FrameLayout>

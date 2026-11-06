@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="ipod_player"
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutShortLabel="@string/sc_player_short"
+        android:shortcutLongLabel="@string/sc_player_long">
+        <intent
+            android:action="com.widgetstudio.OPEN_PLAYER"
+            android:targetPackage="com.widgetstudio"
+            android:targetClass="com.widgetstudio.MainActivity" />
+    </shortcut>
+</shortcuts>

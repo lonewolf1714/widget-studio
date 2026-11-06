@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="180dp" android:minHeight="180dp"
+    android:targetCellWidth="4" android:targetCellHeight="4"
+    android:minResizeWidth="70dp" android:minResizeHeight="110dp"
+    android:resizeMode="horizontal|vertical" android:updatePeriodMillis="1800000"
+    android:previewImage="@drawable/preview_applist"
+    android:initialLayout="@layout/widget_applist" android:description="@string/d_applist"
+    android:configure="com.widgetstudio.ConfigActivity" android:widgetFeatures="reconfigurable"
+    android:widgetCategory="home_screen" />

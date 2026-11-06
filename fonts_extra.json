@@ -1,0 +1,192 @@
+[
+ {
+  "key": "montserrat",
+  "label": "Montserrat",
+  "weightable": true
+ },
+ {
+  "key": "poppins",
+  "label": "Poppins",
+  "weightable": false
+ },
+ {
+  "key": "dm_sans",
+  "label": "DM Sans",
+  "weightable": true
+ },
+ {
+  "key": "manrope",
+  "label": "Manrope",
+  "weightable": true
+ },
+ {
+  "key": "outfit",
+  "label": "Outfit",
+  "weightable": true
+ },
+ {
+  "key": "sora",
+  "label": "Sora",
+  "weightable": true
+ },
+ {
+  "key": "jakarta",
+  "label": "Plus Jakarta Sans",
+  "weightable": true
+ },
+ {
+  "key": "urbanist",
+  "label": "Urbanist",
+  "weightable": true
+ },
+ {
+  "key": "raleway",
+  "label": "Raleway",
+  "weightable": true
+ },
+ {
+  "key": "josefin",
+  "label": "Josefin Sans",
+  "weightable": true
+ },
+ {
+  "key": "quicksand",
+  "label": "Quicksand",
+  "weightable": true
+ },
+ {
+  "key": "comfortaa",
+  "label": "Comfortaa",
+  "weightable": true
+ },
+ {
+  "key": "syne",
+  "label": "Syne",
+  "weightable": true
+ },
+ {
+  "key": "unbounded",
+  "label": "Unbounded",
+  "weightable": true
+ },
+ {
+  "key": "orbitron",
+  "label": "Orbitron",
+  "weightable": true
+ },
+ {
+  "key": "michroma",
+  "label": "Michroma",
+  "weightable": false
+ },
+ {
+  "key": "big_shoulders",
+  "label": "Big Shoulders",
+  "weightable": true
+ },
+ {
+  "key": "anton",
+  "label": "Anton",
+  "weightable": false
+ },
+ {
+  "key": "oswald",
+  "label": "Oswald",
+  "weightable": true
+ },
+ {
+  "key": "righteous",
+  "label": "Righteous",
+  "weightable": false
+ },
+ {
+  "key": "cormorant",
+  "label": "Cormorant Garamond",
+  "weightable": true
+ },
+ {
+  "key": "eb_garamond",
+  "label": "EB Garamond",
+  "weightable": true
+ },
+ {
+  "key": "fraunces",
+  "label": "Fraunces",
+  "weightable": true
+ },
+ {
+  "key": "baskerville",
+  "label": "Libre Baskerville",
+  "weightable": true
+ },
+ {
+  "key": "lora",
+  "label": "Lora",
+  "weightable": true
+ },
+ {
+  "key": "bodoni",
+  "label": "Bodoni Moda",
+  "weightable": true
+ },
+ {
+  "key": "prata",
+  "label": "Prata",
+  "weightable": false
+ },
+ {
+  "key": "cinzel",
+  "label": "Cinzel",
+  "weightable": true
+ },
+ {
+  "key": "marcellus",
+  "label": "Marcellus",
+  "weightable": false
+ },
+ {
+  "key": "italiana",
+  "label": "Italiana",
+  "weightable": false
+ },
+ {
+  "key": "tenor",
+  "label": "Tenor Sans",
+  "weightable": false
+ },
+ {
+  "key": "abril",
+  "label": "Abril Fatface",
+  "weightable": false
+ },
+ {
+  "key": "yeseva",
+  "label": "Yeseva One",
+  "weightable": false
+ },
+ {
+  "key": "dancing",
+  "label": "Dancing Script",
+  "weightable": true
+ },
+ {
+  "key": "great_vibes",
+  "label": "Great Vibes",
+  "weightable": false
+ },
+ {
+  "key": "lobster",
+  "label": "Lobster",
+  "weightable": false
+ },
+ {
+  "key": "jetbrains",
+  "label": "JetBrains Mono",
+  "weightable": true
+ },
+ {
+  "key": "space_mono",
+  "label": "Space Mono",
+  "weightable": false
+ }
+]

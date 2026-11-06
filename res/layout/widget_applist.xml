@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/img" android:layout_width="match_parent"
+        android:layout_height="match_parent" android:scaleType="fitXY" />
+    <ListView android:id="@+id/list" android:layout_width="match_parent" android:layout_height="match_parent"
+        android:divider="@null" android:dividerHeight="0dp" android:scrollbars="none"
+        android:listSelector="@android:color/transparent" android:fadingEdgeLength="16dp"
+        android:requiresFadingEdge="vertical" />
+    <GridView android:id="@+id/grid" android:layout_width="match_parent" android:layout_height="match_parent"
+        android:numColumns="4" android:scrollbars="none" android:stretchMode="columnWidth"
+        android:listSelector="@android:color/transparent" android:visibility="gone" />
+    <TextView android:id="@+id/empty" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:padding="14dp" android:text="No apps yet. Tap edit to choose some." android:textSize="14sp"
+        android:visibility="gone" />
+</FrameLayout>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.widgetstudio">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent>
+        <!-- Reach Launcher shares its styled icons with the App List widget -->
+        <provider android:authorities="com.reach.launcher.icons" />
+    </queries>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Widget Studio"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".MainActivity" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <meta-data android:name="android.app.shortcuts" android:resource="@xml/shortcuts" />
+        </activity>
+
+        <activity
+            android:name=".ConfigActivity"
+            android:exported="true"
+            android:taskAffinity=""
+            android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".CoverActivity"
+            android:exported="false"
+            android:showWhenLocked="true"
+            android:resizeableActivity="true"
+            android:excludeFromRecents="true"
+            android:configChanges="orientation|screenSize|screenLayout|smallestScreenSize|density|keyboardHidden" />
+
+        <receiver android:name=".TickReceiver" android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.TIME_SET" />
+                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+                <action android:name="android.intent.action.LOCALE_CHANGED" />
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+            </intent-filter>
+        </receiver>
+
+        <receiver android:name=".ActionReceiver" android:exported="false" />
+        <service android:name=".AppList$Service" android:exported="false"
+            android:permission="android.permission.BIND_REMOTEVIEWS" />
+        <activity android:name=".AppList$Launch" android:exported="false" android:noHistory="true"
+            android:excludeFromRecents="true" android:taskAffinity=""
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <service
+            android:name=".MusicService"
+            android:exported="true"
+            android:label="Widget Studio music"
+            android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE">
+            <intent-filter>
+                <action android:name="android.service.notification.NotificationListenerService" />
+            </intent-filter>
+        </service>
+
+        <receiver android:name=".Providers$Cal" android:exported="true" android:label="Calendar + Weather">
+            <intent-filter><action android:name="android.appwidget.action.APPWIDGET_UPDATE" /></intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/w_cal" />
+            <meta-data android:name="com.samsung.android.appwidget.provider" android:resource="@xml/samsung_widget" />
+        </receiver>
+        <receiver android:name=".Providers$Events" android:exported="true" android:label="Next Events">
+            <intent-filter><action android:name="android.appwidget.action.APPWIDGET_UPDATE" /></intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/w_events" />
+            <meta-data android:name="com.samsung.android.appwidget.provider" android:resource="@xml/samsung_widget" />
+        </receiver>
+        <receiver android:name=".Providers$Storage" android:exported="true" android:label="Storage">
+            <intent-filter><action android:name="android.appwidget.action.APPWIDGET_UPDATE" /></intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/w_storage" />
+            <meta-data android:name="com.samsung.android.appwidget.provider" android:resource="@xml/samsung_widget" />
+        </receiver>
+        <receiver android:name=".Providers$BigDate" android:exported="true" android:label="Big Date">
+            <intent-filter><action android:name="android.appwidget.action.APPWIDGET_UPDATE" /></intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/w_bigdate" />
+            <meta-data android:name="com.samsung.android.appwidget.provider" android:resource="@xml/samsung_widget" />
+        </receiver>
+        <receiver android:name=".Providers$Quote" android:exported="true" android:label="Quote">
+            <intent-filter><action android:name="android.appwidget.action.APPWIDGET_UPDATE" /></intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/w_quote" />
+            <meta-data android:name="com.samsung.android.appwidget.provider" android:resource="@xml/samsung_widget" />
+        </receiver>
+        <receiver android:name=".Providers$Counter" android:exported="true" android:label="Counter (age, love, project)">
+            <intent-filter><action android:name="android.appwidget.action.APPWIDGET_UPDATE" /></intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/w_counter" />
+            <meta-data android:name="com.samsung.android.appwidget.provider" android:resource="@xml/samsung_widget" />
+        </receiver>
+        <receiver android:name=".Providers$Music" android:exported="true" android:label="iPod Music">
+            <intent-filter><action android:name="android.appwidget.action.APPWIDGET_UPDATE" /></intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/w_music" />
+            <meta-data android:name="com.samsung.android.appwidget.provider" android:resource="@xml/samsung_widget" />
+        </receiver>
+        <receiver android:name=".Providers$Game" android:exported="true" android:label="Games">
+            <intent-filter><action android:name="android.appwidget.action.APPWIDGET_UPDATE" /></intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/w_game" />
+            <meta-data android:name="com.samsung.android.appwidget.provider" android:resource="@xml/samsung_widget" />
+        </receiver>
+        <receiver android:name=".Providers$Dots" android:exported="true" android:label="Year in Dots">
+            <intent-filter><action android:name="android.appwidget.action.APPWIDGET_UPDATE" /></intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/w_dots" />
+            <meta-data android:name="com.samsung.android.appwidget.provider" android:resource="@xml/samsung_widget" />
+        </receiver>
+        <receiver android:name=".Providers$Combo" android:exported="true" android:label="Custom Combo">
+            <intent-filter><action android:name="android.appwidget.action.APPWIDGET_UPDATE" /></intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/w_combo" />
+            <meta-data android:name="com.samsung.android.appwidget.provider" android:resource="@xml/samsung_widget" />
+        </receiver>
+        <receiver android:name=".Providers$Weather" android:exported="true" android:label="Weather">
+            <intent-filter><action android:name="android.appwidget.action.APPWIDGET_UPDATE" /></intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/w_weather" />
+            <meta-data android:name="com.samsung.android.appwidget.provider" android:resource="@xml/samsung_widget" />
+        </receiver>
+        <receiver android:name=".Providers$Photo" android:exported="true" android:label="Photo">
+            <intent-filter><action android:name="android.appwidget.action.APPWIDGET_UPDATE" /></intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/w_photo" />
+            <meta-data android:name="com.samsung.android.appwidget.provider" android:resource="@xml/samsung_widget" />
+        </receiver>
+        <receiver android:name=".Providers$CoverMusic" android:exported="true" android:label="iPod Music">
+            <intent-filter><action android:name="android.appwidget.action.APPWIDGET_UPDATE" /></intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/w_cover_music" />
+            <meta-data android:name="com.samsung.android.appwidget.provider" android:resource="@xml/samsung_cover" />
+            <meta-data android:name="com.samsung.android.sdk.subscreen.widget.support_visibility_callback" android:value="true" />
+        </receiver>
+        <receiver android:name=".PlayerWidget" android:exported="true" android:label="iPod Player (Cover mode)">
+            <intent-filter><action android:name="android.appwidget.action.APPWIDGET_UPDATE" /></intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/w_player" />
+        </receiver>
+        <receiver android:name=".Providers$Clock" android:exported="true" android:label="Clocks">
+            <intent-filter><action android:name="android.appwidget.action.APPWIDGET_UPDATE" /></intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/w_clock" />
+        </receiver>
+        <receiver android:name=".Providers$AppListW" android:exported="true" android:label="App List">
+            <intent-filter><action android:name="android.appwidget.action.APPWIDGET_UPDATE" /></intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/w_applist" />
+            <meta-data android:name="com.samsung.android.appwidget.provider" android:resource="@xml/samsung_widget" />
+        </receiver>
+    </application>
+</manifest>

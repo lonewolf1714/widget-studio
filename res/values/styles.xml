@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="@android:style/Theme.DeviceDefault.NoActionBar">
+        <item name="android:windowBackground">@color/bg</item>
+        <item name="android:colorAccent">#FF9CCB5A</item>
+        <item name="android:statusBarColor">@color/bg</item>
+        <item name="android:navigationBarColor">@color/bg</item>
+    </style>
+    <color name="bg">#FF0E1311</color>
+    <string name="d_cal">Month, week, next event and weather</string>
+    <string name="d_events">Upcoming calendar events</string>
+    <string name="d_storage">Free and used storage</string>
+    <string name="d_bigdate">Big date with a weather sentence</string>
+    <string name="d_quote">Your own text in any font</string>
+    <string name="d_counter">Age, relationship, project or countdown</string>
+    <string name="d_music">Click-wheel music player</string>
+    <string name="d_combo">Combine several widgets in one</string>
+    <string name="d_weather">Weather for your city</string>
+    <string name="d_photo">A photo from your gallery</string>
+    <string name="d_player">Widget Studio · Opens the full-screen iPod player with the click wheel</string>
+    <string name="sc_player_short">iPod Player</string>
+    <string name="sc_player_long">iPod Player (Widget Studio)</string>
+    <string name="d_clock">Live clocks: lock screen, bold, analog, flip, world and word</string>
+    <string name="d_dots">Every day of the year as a dot</string>
+    <string name="d_applist">App List: scroll and open your apps</string>
+    <string name="d_lucky">Lucky 7: two dice, bet below, on or above 7</string>
+    <string name="d_game">Coin flip, dice and tic-tac-toe</string>
+</resources>

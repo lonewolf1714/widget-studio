@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/img" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter" />
+    <AnalogClock android:id="@+id/analog" android:layout_width="0dp" android:layout_height="0dp" android:visibility="gone" />
+    <TextClock android:id="@+id/tc_date" android:layout_width="0dp" android:layout_height="0dp" android:gravity="center"
+        android:format12Hour="EEEE, d MMMM" android:format24Hour="EEEE, d MMMM" android:fontFamily="sans-serif-medium"
+        android:includeFontPadding="false" android:visibility="gone" />
+    <TextClock android:id="@+id/tc_thin" android:layout_width="0dp" android:layout_height="0dp" android:gravity="center"
+        android:format12Hour="h:mm" android:format24Hour="HH:mm" android:fontFamily="sans-serif-light"
+        android:includeFontPadding="false" android:visibility="gone" />
+    <TextClock android:id="@+id/tc_bold" android:layout_width="0dp" android:layout_height="0dp" android:gravity="center"
+        android:format12Hour="h:mm" android:format24Hour="HH:mm" android:fontFamily="sans-serif-black"
+        android:includeFontPadding="false" android:visibility="gone" />
+    <TextClock android:id="@+id/tc_hh" android:layout_width="0dp" android:layout_height="0dp" android:gravity="center"
+        android:format12Hour="hh" android:format24Hour="HH" android:fontFamily="sans-serif-medium"
+        android:includeFontPadding="false" android:visibility="gone" />
+    <TextClock android:id="@+id/tc_mm" android:layout_width="0dp" android:layout_height="0dp" android:gravity="center"
+        android:format12Hour="mm" android:format24Hour="mm" android:fontFamily="sans-serif-medium"
+        android:includeFontPadding="false" android:visibility="gone" />
+    <TextClock android:id="@+id/tc_w1" android:layout_width="0dp" android:layout_height="0dp" android:gravity="end|center_vertical"
+        android:format12Hour="h:mm" android:format24Hour="HH:mm" android:fontFamily="sans-serif-light"
+        android:includeFontPadding="false" android:visibility="gone" />
+    <TextClock android:id="@+id/tc_w2" android:layout_width="0dp" android:layout_height="0dp" android:gravity="end|center_vertical"
+        android:format12Hour="h:mm" android:format24Hour="HH:mm" android:fontFamily="sans-serif-light"
+        android:includeFontPadding="false" android:visibility="gone" />
+</FrameLayout>
