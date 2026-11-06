@@ -46,6 +46,51 @@ final class Quotes {
             {"The unexamined life is not worth living.", "Socrates"},
             {"We are what we repeatedly do. Excellence, then, is not an act, but a habit.", "Will Durant"},
             {"Talk is cheap. Show me the code.", "Linus Torvalds"},
+            {"The secret of getting ahead is getting started.", "Mark Twain"},
+            {"Simplicity is the ultimate sophistication.", "Leonardo da Vinci"},
+            {"Be yourself; everyone else is already taken.", "Oscar Wilde"},
+            {"Whether you think you can, or you think you can't, you're right.", "Henry Ford"},
+            {"The future depends on what you do today.", "Mahatma Gandhi"},
+            {"Live as if you were to die tomorrow. Learn as if you were to live forever.", "Mahatma Gandhi"},
+            {"Act as if what you do makes a difference. It does.", "William James"},
+            {"Knowing is not enough; we must apply.", "Johann Wolfgang von Goethe"},
+            {"Nothing in life is to be feared, it is only to be understood.", "Marie Curie"},
+            {"The best time to plant a tree was 20 years ago. The second best time is now.", "Chinese proverb"},
+            {"Wherever you go, go with all your heart.", "Confucius"},
+            {"It does not matter how slowly you go as long as you do not stop.", "Confucius"},
+            {"We suffer more often in imagination than in reality.", "Seneca"},
+            {"Luck is what happens when preparation meets opportunity.", "Seneca"},
+            {"You have power over your mind, not outside events. Realize this, and you will find strength.", "Marcus Aurelius"},
+            {"The happiness of your life depends upon the quality of your thoughts.", "Marcus Aurelius"},
+            {"First say to yourself what you would be; and then do what you have to do.", "Epictetus"},
+            {"No man ever steps in the same river twice.", "Heraclitus"},
+            {"Knowing yourself is the beginning of all wisdom.", "Aristotle"},
+            {"Nature does not hurry, yet everything is accomplished.", "Lao Tzu"},
+            {"I have not failed. I've just found 10,000 ways that won't work.", "Thomas Edison"},
+            {"Genius is one percent inspiration and ninety-nine percent perspiration.", "Thomas Edison"},
+            {"Start where you are. Use what you have. Do what you can.", "Arthur Ashe"},
+            {"Courage is grace under pressure.", "Ernest Hemingway"},
+            {"You may encounter many defeats, but you must not be defeated.", "Maya Angelou"},
+            {"There is no greater agony than bearing an untold story inside you.", "Maya Angelou"},
+            {"Keep your face always toward the sunshine, and shadows will fall behind you.", "Walt Whitman"},
+            {"What you seek is seeking you.", "Rumi"},
+            {"Take up one idea. Make that one idea your life.", "Swami Vivekananda"},
+            {"You cannot believe in God until you believe in yourself.", "Swami Vivekananda"},
+            {"Excellence is a continuous process and not an accident.", "A.P.J. Abdul Kalam"},
+            {"Believe you can and you're halfway there.", "Theodore Roosevelt"},
+            {"Comparison is the thief of joy.", "Theodore Roosevelt"},
+            {"In three words I can sum up everything I've learned about life: it goes on.", "Robert Frost"},
+            {"Talent wins games, but teamwork and intelligence win championships.", "Michael Jordan"},
+            {"The best way to predict the future is to invent it.", "Alan Kay"},
+            {"Make it work, make it right, make it fast.", "Kent Beck"},
+            {"Programs must be written for people to read, and only incidentally for machines to execute.", "Harold Abelson"},
+            {"The man who moves a mountain begins by carrying away small stones.", "Confucius"},
+            {"A ship in harbor is safe, but that is not what ships are built for.", "John A. Shedd"},
+            {"Little by little, one travels far.", "J.R.R. Tolkien"},
+            {"All we have to decide is what to do with the time that is given us.", "J.R.R. Tolkien"},
+            {"The only impossible journey is the one you never begin.", "Tony Robbins"},
+            {"Do one thing every day that scares you.", "Mary Schmich"},
+            {"If you are going through hell, keep going.", "Winston Churchill"},
     };
 
     static final String[][] SHER = {
@@ -89,10 +134,54 @@ final class Quotes {
             {"Haath chhootein bhi to rishte nahin chhoda karte\nWaqt ki shaakh se lamhe nahin toda karte", "Gulzar"},
             // Dushyant Kumar
             {"Kaun kehta hai aasmaan mein suraakh nahin ho sakta\nEk patthar to tabiyat se uchhaalo yaaro", "Dushyant Kumar"},
+            {"Ye na thi hamaari qismat ki visaal-e-yaar hota\nAgar aur jeete rehte yahi intezaar hota", "Mirza Ghalib"},
+            {"Hum ne maana ki taghaful na karoge lekin\nKhaak ho jaayenge hum tum ko khabar hone tak", "Mirza Ghalib"},
+            {"Rekhte ke tumhi ustaad nahin ho 'Ghalib'\nKehte hain agle zamaane mein koi Mir bhi tha", "Mirza Ghalib"},
+            {"Ishq par zor nahin hai ye woh aatish 'Ghalib'\nKi lagaaye na lage aur bujhaaye na bane", "Mirza Ghalib"},
+            {"Koi umeed bar nahin aati\nKoi soorat nazar nahin aati", "Mirza Ghalib"},
+            {"Mohabbat mein nahin hai farq jeene aur marne ka\nUsi ko dekh kar jeete hain jis kaafir pe dam nikle", "Mirza Ghalib"},
+            {"Na tha kuchh to Khuda tha, kuchh na hota to Khuda hota\nDuboya mujh ko hone ne, na hota main to kya hota", "Mirza Ghalib"},
+            {"Ibtida-e-ishq hai rota hai kya\nAage aage dekhiye hota hai kya", "Mir Taqi Mir"},
+            {"Naazuki us ke lab ki kya kahiye\nPankhudi ik gulaab ki si hai", "Mir Taqi Mir"},
+            {"Nahin hai na-umeed 'Iqbal' apni kisht-e-veeraan se\nZara nam ho to ye mitti bahut zarkhez hai saaqi", "Allama Iqbal"},
+            {"Tu shaheen hai parwaaz hai kaam tera\nTere saamne aasmaan aur bhi hain", "Allama Iqbal"},
+            {"Ghazab kiya tere waade pe aitbaar kiya\nTamaam raat qayaamat ka intezaar kiya", "Daagh Dehlvi"},
+            {"Tum mere paas hote ho goya\nJab koi doosra nahin hota", "Momin Khan Momin"},
+            {"Umr-e-daraaz maang ke laaye the chaar din\nDo aarzoo mein kat gaye do intezaar mein", "Bahadur Shah Zafar"},
+            {"Hum aah bhi karte hain to ho jaate hain badnaam\nWoh qatl bhi karte hain to charcha nahin hota", "Akbar Allahabadi"},
+            {"Jo guzaari na ja saki hum se\nHum ne woh zindagi guzaari hai", JAUN},
+            {"Bahut nazdeek aati ja rahi ho\nBichhadne ka iraada kar liya kya", JAUN},
+            {"Ab to har baat yaad rehti hai\nGhaaliban main kisi ko bhool gaya", JAUN},
+            {"Main jo hoon 'Jaun Elia' hoon janaab\nIs ka behad lihaaz kijiyega", JAUN},
+            {"Ek muddat se teri yaad bhi aayi na hamein\nAur hum bhool gaye hon tujhe aisa bhi nahin", "Firaq Gorakhpuri"},
+            {"Main akela hi chala tha jaanib-e-manzil magar\nLog saath aate gaye aur kaarvaan banta gaya", "Majrooh Sultanpuri"},
+            {"Woh to khushboo hai hawaaon mein bikhar jaayega\nMasla phool ka hai phool kidhar jaayega", "Parveen Shakir"},
+            {"Suna hai log use aankh bhar ke dekhte hain\nSo us ke shehar mein kuchh din thehar ke dekhte hain", "Ahmad Faraz"},
+            {"Mujh se pehli si mohabbat meri mehboob na maang\nMain ne samjha tha ki tu hai to darakhshaan hai hayaat", "Faiz Ahmad Faiz"},
+            {"Woh jhooth bol raha tha bade saleeqe se\nMain aitbaar na karta to aur kya karta", "Wasim Barelvi"},
+            {"Bulaati hai magar jaane ka nahin\nYe duniya hai idhar jaane ka nahin", "Rahat Indori"},
+            {"Dushmani jam kar karo lekin ye gunjaaish rahe\nJab kabhi hum dost ho jaayen to sharminda na hon", "Bashir Badr"},
+            {"Kisi ko ghar mila hisse mein ya koi dukaan aayi\nMain ghar mein sab se chhota tha mere hisse mein maa aayi", "Munawwar Rana"},
+            {"Har aadmi mein hote hain das bees aadmi\nJis ko bhi dekhna ho kayi baar dekhna", "Nida Fazli"},
+            {"Sirf hungaama khada karna mera maqsad nahin\nMeri koshish hai ki ye soorat badalni chahiye", "Dushyant Kumar"},
     };
 
-    static final String[] SETS = {"mix", "en", "shayari", "jaun"};
-    static final String[] SET_LABELS = {"English + Shayari", "English quotes", "Shayari", "Only Jaun Elia"};
+    /** Dohe by Kabir and Rahim. */
+    static final String[][] DOHA = {
+            {"Bura jo dekhan main chala, bura na milya koye\nJo dil khoja aapna, mujhse bura na koye", "Kabir"},
+            {"Kaal kare so aaj kar, aaj kare so ab\nPal mein pralay hoyegi, bahuri karega kab", "Kabir"},
+            {"Dheere dheere re mana, dheere sab kuchh hoye\nMaali seenche sau ghada, ritu aaye phal hoye", "Kabir"},
+            {"Pothi padh padh jag mua, pandit bhaya na koye\nDhai aakhar prem ka, padhe so pandit hoye", "Kabir"},
+            {"Aisi vaani boliye, man ka aapa khoye\nAuran ko sheetal kare, aapahu sheetal hoye", "Kabir"},
+            {"Dukh mein sumiran sab kare, sukh mein kare na koye\nJo sukh mein sumiran kare, to dukh kaahe ko hoye", "Kabir"},
+            {"Bada hua to kya hua, jaise ped khajoor\nPanthi ko chhaaya nahin, phal laage ati door", "Kabir"},
+            {"Rahiman dhaaga prem ka, mat todo chatkaaye\nToote se phir na jude, jude gaanth pad jaaye", "Rahim"},
+            {"Rahiman dekh badan ko, laghu na deejiye daari\nJahaan kaam aave sui, kaha kare talwaari", "Rahim"},
+            {"Jo Rahim uttam prakriti, ka kari sakat kusang\nChandan vish vyaapat nahin, lipte rahat bhujang", "Rahim"},
+    };
+
+    static final String[] SETS = {"mix", "en", "shayari", "doha", "jaun"};
+    static final String[] SET_LABELS = {"Everything mixed", "English quotes", "Shayari", "Kabir & Rahim dohe", "Only Jaun Elia"};
     static final String[] EVERY = {"6h", "day", "tap"};
     static final String[] EVERY_LABELS = {"Every 6 hours", "Every day", "Only when I tap"};
 
@@ -108,13 +197,16 @@ final class Quotes {
         switch (set) {
             case "en": for (String[] q : EN) out.add(q); break;
             case "shayari": for (String[] q : SHER) out.add(q); break;
+            case "doha": for (String[] q : DOHA) out.add(q); break;
             case "jaun": for (String[] q : SHER) if (q[1].equals(JAUN)) out.add(q); break;
             default:
-                // alternate English and shayari so the mix stays balanced
-                for (int i = 0; i < Math.max(EN.length, SHER.length); i++) {
+                // English, shayari and dohe in turn so the mix stays balanced
+                for (int i = 0; i < Math.max(EN.length, Math.max(SHER.length, DOHA.length)); i++) {
                     if (i < EN.length) out.add(EN[i]);
                     if (i < SHER.length) out.add(SHER[i]);
+                    if (i < DOHA.length && i % 3 == 0) out.add(DOHA[i]);
                 }
+                for (int i = 0; i < DOHA.length; i++) if (i % 3 != 0) out.add(DOHA[i]);
         }
         return out.toArray(new String[0][]);
     }
